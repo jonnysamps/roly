@@ -1,0 +1,21 @@
+{
+  "name": "roly",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jonnysamps/roly",
+  "authors": [
+    "Jonathan Samples <jonnysamps@gmail.com>"
+  ],
+  "description": "Roly Poly Tucky Guy",
+  "main": "index.html",
+  "license": "None",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "cocos2d-html5": "*"
+  }
+}
