@@ -82,7 +82,7 @@ var BackgroundSprite = cc.Sprite.extend({
     scrollSpeed: 1,
     ctor:function(){
         this._super();
-        this.initWithFile('assets/background.png');
+        this.initWithFile('res/background.png');
         this.setPosition(480, 160);
     },
     scroll: function(){
@@ -131,7 +131,7 @@ var GroundSprite = ActorSprite.extend({
     scrollSpeed: 3,
     ctor: function(){
         this._super(false, 240,10,480,20);
-        this.initWithFile('assets/ground.png');
+        this.initWithFile('res/ground.png');
     },
     update: function(){
         this.setPosition(this.getPosition().x-this.scrollSpeed, this.getPosition().y);
@@ -145,7 +145,7 @@ var TotemSprite = ActorSprite.extend({
     jumpStrength: 6,
     ctor: function(){
         this._super(true, 75,45,24,48);
-        this.initWithFile('assets/totem.png');
+        this.initWithFile('res/totem.png');
     },
     jump: function(){
         this.body.ApplyImpulse(

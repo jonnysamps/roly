@@ -1,5 +1,5 @@
 var gameResources = [
-    "assets/background.png",
-    "assets/totem.png",
-    "assets/ground.png"
+    "res/background.png",
+    "res/totem.png",
+    "res/ground.png"
 ];
